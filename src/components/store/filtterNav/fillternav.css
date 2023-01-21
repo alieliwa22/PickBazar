@@ -1,0 +1,28 @@
+.fillter-nav {
+  position: absolute;
+  width: 100%;
+  top: 5rem;
+}
+.fillter-nav-sticky {
+  position: fixed;
+  width: 100%;
+  top: -5rem;
+}
+.fillter-nav-sticky.scrolled {
+  position: fixed;
+  width: 100%;
+  top: 5rem;
+  transition: all ease-in-out 0.3s;
+}
+@media screen and (max-width: 1024px) {
+  .fillter-nav {
+    top: 3.5rem;
+  }
+  .fillter-nav-sticky {
+    top: -3.5rem;
+  }
+  .fillter-nav-sticky.scrolled {
+    top: 3.5rem;
+    transition: all ease-in-out 0.3s;
+  }
+}

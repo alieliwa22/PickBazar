@@ -1,0 +1,13 @@
+.logo {
+  width: 10rem;
+  overflow: hidden;
+  height: 2.5rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 1024px) {
+  .logo {
+    width: 8rem;
+  }
+}

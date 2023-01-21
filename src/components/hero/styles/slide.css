@@ -1,0 +1,30 @@
+.slide-content {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  text-align: center;
+  padding: 1.25rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  display: flex;
+  margin-top: 2rem;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  position: absolute;
+}
+.title {
+  font-size: 3rem;
+  line-height: 1;
+  color: rgba(31, 41, 55, 1);
+  letter-spacing: -0.025em;
+  font-weight: 700;
+}
+p {
+  margin-top: 2.5rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  color: rgba(31, 41, 55, 1);
+}

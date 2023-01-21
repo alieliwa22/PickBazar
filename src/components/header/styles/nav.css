@@ -1,0 +1,13 @@
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+.nav-link {
+  margin-right: 2.5rem;
+}
+.nav-item {
+  color: rgba(31, 41, 55, 1);
+}
+.nav-item:hover {
+  color: rgba(0, 159, 127, 1);
+}
